@@ -9,20 +9,20 @@ const Products = () => {
       name: 'Linear Grills',
       products: [
         {
-          id: 'ea-15',
-          name: 'Normal Flow AC Grille - Model : EA-15',
+          id: 'fa-15',
+          name: 'Normal Flow AC Grille - Model : FA-15',
           image: '/images/products/ea-15.png',
           description: 'Duly powder coated extruded aluminium linear horizontal fixed bar grilles, with 15 deg. or 0 degree deflection blade having pitch of 13 mm. Recommended for heating, cooling, and ventilating applications. Typically installed in a sidewall, ceiling or duct.'
         },
         {
-          id: 'ea-30',
-          name: 'Normal Flow AC Grille - Model : EA-30',
+          id: 'fa-30',
+          name: 'Normal Flow AC Grille - Model : FA-30',
           image: '/images/products/ea-15.png',
           description: 'Duly powder coated extruded aluminium linear horizontal fixed bar grilles, with 30 deg. or 0 degree deflection blade having pitch of 13 mm. Recommended for heating, cooling, and ventilating applications. Typically installed in a sidewall, ceiling or duct.'
         },
         {
-          id: 'ea-45',
-          name: 'Normal Flow AC Grille - Model : EA-45',
+          id: 'fa-45',
+          name: 'Normal Flow AC Grille - Model : FA-45',
           image: '/images/products/ea-15.png',
           description: 'Duly powder coated extruded aluminium linear horizontal fixed bar grilles, with 45 deg. or 0 degree deflection blade having pitch of 13 mm. Recommended for heating, cooling, and ventilating applications. Typically installed in a sidewall, ceiling or duct.'
         }
@@ -33,8 +33,8 @@ const Products = () => {
       name: 'Curved & Square Grills',
       products: [
         {
-          id: 'ea-cg',
-          name: 'Curved Grille - Model : EA-CG',
+          id: 'fa-cg',
+          name: 'Curved Grille - Model : FA-CG',
           image: '/images/products/ea-cg.png',
           description: 'Duly powder coated extruded aluminium linear horizontal fixed bar curved grilles, with 15 deg. or 0 degree deflection blade having pitch of 13 mm and 16 mm. Recommended for heating, cooling, and ventilating applications. Typically installed in a sidewall, ceiling or duct. Also available in black spacer.'
         },
@@ -58,18 +58,18 @@ const Products = () => {
       products: [
         {
           id: 'S6',
-          name: 'Slot EA-S4, S6',
+          name: 'Slot FA-S4, S6',
           image: '/images/products/s6.png',
           description: 'Linear slot diffuser, mainly intended for air supply in comfort ventilation systems for offices, shops, medical rooms, school classrooms etc. The supply air flow pattern/direction can be formed by adjustable deflectors in vents, air flow volume can be tuned by slider adjustment damper. The diffusers can be installed as individual pieces or in array of multiple segments.'
         },
         {
-          id: 'Slot EA-S2',
+          id: 'Slot FA-S2',
           name: 'S2',
           image: '/images/products/s2.png',
           description: 'Linear slot diffuser, mainly intended for air supply in comfort ventilation systems for offices, shops, medical rooms, school classrooms etc. The supply air flow pattern/direction can be formed by adjustable deflectors in vents, air flow volume can be tuned by slider adjustment damper. The diffusers can be installed as individual pieces or in array of multiple segments.'
         },
         {
-          id: 'Slot',
+          id: 'Slot FA',
           name: 'Slot',
           image: '/images/products/slot.png',
           description: 'Duly powder coated extruded aluminium linear horizontal fixed bar grilles, with 45 deg. or 0 degree deflection blade having pitch of 13 mm. Recommended for heating,cooling, and ventilating applications. Typically installed in a sidewall, ceiling or duct.'
@@ -93,20 +93,20 @@ const Products = () => {
       name: 'Fire & Smoke Control',
       products: [
         {
-          id: 'fire EA',
-          name: 'Fire Damper-- Model No : EA-FD-WM-I',
+          id: 'fire FA',
+          name: 'Fire Damper-- Model No : FA-FD-WM-I',
           image: '/images/products/ea-wm1.png',
           description: 'Fire Dampers are required by all building codes to maintain the required fire resistance ratings of walls, partitions, and floor when they are penetrated by air ducts or other ventilation openings. This is a wall mounted motorised multi-blade fire damper with 3V style blades and spring return electric actuator which is mounted internally.It has also been qualified for dynamic closure in emergency fire situations. It is rated for airflow in either direction.'
         },
         {
-          id: 'fire EA-HAD',
-          name: 'Access door - Model No : EA-HAD',
+          id: 'fire FA-HAD',
+          name: 'Access door - Model No : FA-HAD',
           image: '/images/products/ea-had.png',
           description: 'Fire dampers need inspecting and testing, coils need cleaning and controls need adjusting. Eco Air offers a range of duct and plenum access doors that have been designed to allow easy and convenient access to such equipment within HVAC ductwork, without compromising safety or ventilation, to meet different duct styles and application needs, with Double skin construction that meets SMACNA requirement with quick simple installation. The ultra low leakage premium quality that optimizes access area and ease of installation. All models are available in a wide variety of sizes to suit each specific application.'
         },
-        { 
-          id: 'fire EA-FD-WM',
-          name: 'Fire Damper - EA-FD-WM',
+        {
+          id: 'fire FA-FD-WM',
+          name: 'Fire Damper - FA-FD-WM',
           image: '/images/products/ea-wm.png',
           description: 'Fire Dampers are required by all building codes to maintain the required fire resistance ratings of walls, partitions, and floor when they are penetrated by air ducts or other ventilation openings. This is a wall mounted motorised fire damper with 2V style blades and spring return electric actuator and has also been qualified for dynamic closure in emergency fire situations. It is rated for airflow in either direction.'
         }
@@ -117,14 +117,14 @@ const Products = () => {
       name: 'Air Treatment and Ventilation',
       products: [
         {
-          id: 'ea-sc-if',
-          name: 'Circular Inline Fan - Model No : EA-SC-IF',
+          id: 'fa-sc-if',
+          name: 'Circular Inline Fan - Model No : FA-SC-IF',
         image: '/images/products/ea-sc.png',
           description: 'Supply and exhaust ventilation systems for various premises for external surface mounting behind false ceiling. The impeller with backward blades is powered by the single phase motor with external rotor and over-heating protection with automatic restart. The motor equipped with ball bearings for long service life designed for at least 40000 hours. For precise features, safe operation and low noise, each impeller is dynamically balanced while assembly. Motor protection rating IP 44. Both smooth and step speed control is performed with the thyristor or auto transformer controller. several fans can be connected to one controller in case the total power and operating current do not exceed the rated controller values.'
         },
         {
-          id: 'ea-disc',
-          name: 'Disc Valve - EA',
+          id: 'fa-disc',
+          name: 'Disc Valve - FA-DISC',
           image: '/images/products/ea-disc.png',
           description: 'Disc valves are used as an alternative to ceiling diffuser. They are most commonly used for the purpose of ventilation. The air flow through the disk valve can be adjusted by rotating the disc clockwise or anticlockwise. The rotation changes the free area between the disc and the frame.'
         }
@@ -135,8 +135,8 @@ const Products = () => {
       name: 'Diffuser',
       products: [
         {
-          id: 'EA-EB',
-          name: 'Eye Ball Type - Model : EA-EB',
+          id: 'FA-EB',
+          name: 'Eye Ball Type - Model : FA-EB',
           image: '/images/products/ea-eb.png',
           description: 'These diffusers are duly powder coated aluminium double skin eye-ball type rotatable jet nozzle. This type of supply nozzles are capable of delivering air to spaces where long distance penetration and low noise levels are required. Suitable for cold and warm air supply applications, these versatile adjustable units are ideal for providing focussed ventilation or where precision is required. Where grouped penetration can be considerably enhanced.'
         },
@@ -147,26 +147,26 @@ const Products = () => {
           description: 'These Diffusers are of duly powder coated aluminium rotatable jet nozzle/spot diffuser. Spot Diffusers give optimum performance for supply of air via ceiling diffuser is not feasible viz, shopping malls, large halls, assembly shops, etc. The eyeball and socket arrangement provide flexibility of setting the air jet to any desired angle within 40. Its creative design provides excellent compatibility of aesthetic match as well as acoustic characters which are ideal for application in auditoriums, concert halls and conference room etc. Rotating nozzle provides a long throw jet pattern. Field adjustable pattern and direction – from the face of the outlet. Directional control within a 60° arc.'
         },
         {
-          id: 'EA-F',
-          name: 'Square Diffuser - Model : EA-F',
+          id: 'FA-F',
+          name: 'Square Diffuser - Model : FA-F',
           image: '/images/products/ea-f.png',
           description: 'These diffusers are duly powder coated extruded/ stamped aluminium multi-cone ceiling diffuser with removable core. Square diffuser is generally used for constant or variable air volume for heating, cooling, or ventilating purpose. It is used to direct air diffusion for space coverage. Also used for return air to maintain matched appearance. Surface mounted or suspended grid systems.'
         },
         {
-          id: 'EA-G',
-          name: 'Grid Diffuser - Model : EA-G',
+          id: 'FA-G',
+          name: 'Grid Diffuser - Model : FA-G',
           image: '/images/products/ea-g.png',
           description: 'These diffusers are duly powder coated stamped aluminium multi-cone grid type ceiling diffuser with removable centre core helps to facilitate cleaning and damper adjustment. Out to out size: 595 X 595 mm neck size 450 x 450 mm.'
         },
         {
-          id: 'EA-LD',
-          name: 'Linear Diffuser - Model : EA-LD',
-          image: '/images/products/ld.png',  
+          id: 'FA-LD',
+          name: 'Linear Diffuser - Model : FA-LD',
+          image: '/images/products/ld.png',
           description: 'These diffusers are duly powder coated extruded aluminium ceiling mounted two way linear diffusers having two way air directional vanes. Engineered air distribution pattern for two way flow in wide range of rectangular neck size'
         },
         {
-          id: 'EA-JND',
-          name: 'Jet Nozzle Diffuser - Model : EA-JND',
+          id: 'FA-JND',
+          name: 'Jet Nozzle Diffuser - Model : FA-JND',
           image: '/images/products/ea-jnd.png',
           description: 'These diffusers are powder coated aluminium rotatable jet nozzle and diffuser which allows both jet/diffusion mode. neck size 250 mm dia, 315 mm and 380 mm. These high flow Jet diffusers are suitable for wall/ceiling mounting application for large volume of air handling and longer throws. These have unique feature of setting the device both for diffusion and air jet. Also the universal joint type setting allows both Jet/Diffusion in any desired angle. The diffusers are versatile in application by virtue of the novel "reversible and rotatable" core design which allows the air jet to be adjusted for both pattern and deflection. Unit may be mounted individually or in banks in bulk head arrangements or directly into stub ducts. Suitable for large rooms/halls,shopping malls, Assembly halls, etc.'
         },
@@ -183,14 +183,14 @@ const Products = () => {
       name: 'Control Dampers',
       products: [
         {
-          id: 'EA-VCD',
-          name: 'Aluminium or GI - Model No : EA-VCD',
+          id: 'FA-VCD',
+          name: 'Aluminium or GI - Model No : FA-VCD',
           image: '/images/products/ea-vcd.png',
           description: 'Grills and slots designed as per architecture design.'
         },
         {
-          id: 'Dumper EA-VCD',
-          name: 'Aluminium or GI Dumper - Model No : EA-VCD',
+          id: 'Dumper FA-VCD',
+          name: 'Aluminium or GI Dumper - Model No : FA-VCD',
           image: '/images/products/dumper-ea.png',
           description: 'The GI Duct Volume control Dampers having 3-V style blades for applications as manual balancing dampers. A wide range of electric or pneumatic actuators are available for these models. It includes extended shafts for motorised assembly with wide range of electric and pneumatic actuators to choose from. These dampers are typically used in low to medium pressure and velocity systems. The fabricated blades are reinforced with longitudinal designed vee’s.'
         }
